@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+
+
+
+@font-face {
+    font-family: "NanumPenScript-Regular";
+    src:url("../font/NanumPenScript-Regular.ttf");
+    
+}
+
+@font-face {
+    font-family: "NotoSansKR-Bold";
+    src:url("../font/NotoSansKR-Bold.ttf");
+    
+}
+
+@font-face {
+    font-family: "NotoSansKR-Light";
+    src:url("../font/NotoSansKR-Light.ttf");
+    
+}
+
+@font-face {
+    font-family: "NotoSansKR-Medium";
+    src:url("../font/NotoSansKR-Medium.ttf");
+    
+}
+
+@font-face {
+    font-family: "NotoSansKR-Regular";
+    src:url("../font/NotoSansKR-Regular.ttf");
+    
+}
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+  
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+
+a{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+ul,li{
+    list-style:none;
+}
+
+img{
+    display:block;
+}
+
+
+
+
+body {
+    font-family: "NotoSansKR-Medium";
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+}
+
+.loadingbox {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.loadingbox h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.loadingbox p {
+    font-size: 18px;
+    color: #666;
+}
